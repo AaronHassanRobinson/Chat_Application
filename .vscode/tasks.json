@@ -1,0 +1,15 @@
+{
+    "tasks": [
+        {
+            "type": "shell",
+            "label": "Server shell build script",
+            "command": "${workspaceFolder}/Server/server_build.sh",
+
+            "options": {
+                // "cwd": "/usr/bin"
+                "cwd": "${workspaceFolder}"
+            }
+        }
+    ],
+    "version": "2.0.0"
+}
